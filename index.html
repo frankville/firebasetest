@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+</head>
+<body>
+	<div class="row">
+		<div class="container-fluid">
+			<div class="col-xs-4">
+				<form id="formulario" class="form-horizontal" role="form">
+					<video id="vidFrame" width="200" height="200" autoplay></video>
+					<canvas id="cuadro"></canvas>
+					<input id="campo" class="form-control" placeholder="presiona enter">
+				</form>				
+			</div>
+			<div class="col-xs-7">
+				<table id="lista" class="table-responsive">
+					<thead style="text-align: center">
+						<tr>
+							<th style="width:5em ; text-align: center">idwt</th>
+							<th style="width:20em ;  text-align: center">Employee ID</th>
+							<th style="width:20em ;  text-align: center">CaptCheckin</th>
+							<th style="width:20em ;  text-align: center">checkin</th>
+							<th style="width:20em ;  text-align: center">captCheckout</th>
+							<th style="width:20em ;  text-align: center">Checkout</th>
+							<th style="width:5em ;  text-align: center">borrar</th>
+						</tr>
+					</thead>
+					<tbody>
+			
+					</tbody>
+				</table>				
+			</div>
+		</div>
+	</div>
+
+
+	<script src="jquery-1.11.0.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src='//cdn.firebase.com/js/client/1.0.11/firebase.js'></script>
+	<script src="test.js"></script>
+	<!--<script src="model.js"></script> -->
+	<script src="fb.js"></script>
+	<script src="events.js"></script>
+</body>
+</html>
